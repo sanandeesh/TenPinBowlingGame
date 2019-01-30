@@ -11,12 +11,16 @@ The game is tested through CatchBDD_main.cpp, which is the entry point of 'Catch
 1. Open a terminal and navigate to the root directory of this repository.
 
 2. To build the main executable, PlayBowling.exe, run:
+
 	make PlayBowling
+	
 	PlayBowling.exe will appear in the root directory.
 
 3. Run: 
 	./PlayBowling.exe
+	
 	The screen prompts the user to enter the number of frames. This must be > 1.
+	
 	The outcome of each frame and the final score will appear on the screen.
 
 4. To build the test executable, CatchBDD_BowlingGame.exe, run:
