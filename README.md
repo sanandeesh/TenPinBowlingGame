@@ -12,23 +12,24 @@ The game is tested through CatchBDD_main.cpp, which is the entry point of 'Catch
 
 2. To build the main executable, PlayBowling.exe, run:
 
-	make PlayBowling
+	> make PlayBowling
 	
 	PlayBowling.exe will appear in the root directory.
 
 3. Run: 
-	./PlayBowling.exe
+	> ./PlayBowling.exe
 	
 	The screen prompts the user to enter the number of frames. This must be > 1.
 	
 	The outcome of each frame and the final score will appear on the screen.
 
 4. To build the test executable, CatchBDD_BowlingGame.exe, run:
-	make TestBowling
+	> make TestBowling
 	CatchBDD_BowlingGame.exe will appear in the root directory.
 
 5. Run:
-	./CatchBDD_BowlingGame.exe --reporter compact --success
+	> ./CatchBDD_BowlingGame.exe --reporter compact --success
+	
 	The Catch2 compact test report will appear on the screen.
 
 # BowlingGame Class Description
