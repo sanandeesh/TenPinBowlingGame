@@ -39,7 +39,7 @@ A score sheet is maintained as a 2D array.
 
 # Example Outputs 
 1. Main executable outputs:
-'''
+```
 Enter the Desired Number of Frames for this Game ...
 5
 -------------------------------------
@@ -72,9 +72,10 @@ Rolled 10
 Rolled 0
 Frame 4 is a STRIKE!
 Total Score: 53
-'''
+```
 
 2. Test executable outputs:
+```
 CatchBDD_main.cpp:39: passed: bowlingGame.getNumFrames() == numFrames for: 20 == 20
 CatchBDD_main.cpp:42: passed: bowlingGame.getCurrentFrame() == 0 for: 0 == 0
 CatchBDD_main.cpp:52: passed: bowlingGame.getCurrentFrame() == (iFrm+1) for: 1 == 1
@@ -167,3 +168,4 @@ CatchBDD_main.cpp:73: passed: runningScore == bowlingGame.getScore() for: 181 ==
 ERROR: 21 Exceeds Total Number of Frames, 20
 CatchBDD_main.cpp:79: passed: bowlingGame.getCurrentFrame() == numFrames for: 20 == 20
 Passed 1 test case with 90 assertions.
+```
