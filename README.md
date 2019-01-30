@@ -39,6 +39,7 @@ A score sheet is maintained as a 2D array.
 
 # Example Outputs 
 1. Main executable outputs:
+'''
 Enter the Desired Number of Frames for this Game ...
 5
 -------------------------------------
@@ -71,7 +72,7 @@ Rolled 10
 Rolled 0
 Frame 4 is a STRIKE!
 Total Score: 53
-
+'''
 
 2. Test executable outputs:
 CatchBDD_main.cpp:39: passed: bowlingGame.getNumFrames() == numFrames for: 20 == 20
