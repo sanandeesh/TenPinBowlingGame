@@ -3,9 +3,9 @@ Implements a single player 10 pin bowling game, and includes a BDD test using th
 
 # Overview
 This repository includes C++ software which implements a single player 10-pin bowling game. 
-The game functionality is implemented within the BowlingGame class (BowlingGame.h and BowlingGame.cpp).
-The game is played through main.cpp, which is the entry point of 'PlayBowling.exe'.
-The game is tested through CatchBDD_main.cpp, which is the entry point of 'CatchBDD_BowlingGame.exe'.
+The game functionality is implemented within the BowlingGame class (**BowlingGame.h** and **BowlingGame.cpp**).
+The game is played through **main.cpp**, which is the entry point of **PlayBowling.exe**.
+The game is tested through **CatchBDD_main.cpp**, which is the entry point of **CatchBDD_BowlingGame.exe**.
 
 # Build/Run Instructions
 1. Open a terminal and navigate to the root directory of this repository.
