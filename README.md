@@ -25,6 +25,7 @@ The game is tested through CatchBDD_main.cpp, which is the entry point of 'Catch
 
 4. To build the test executable, CatchBDD_BowlingGame.exe, run:
 	> make TestBowling
+	
 	CatchBDD_BowlingGame.exe will appear in the root directory.
 
 5. Run:
