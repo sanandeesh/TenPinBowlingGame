@@ -1,6 +1,6 @@
 /* ========================================================================
  Name:     CatchBDD_main.cpp
- Descr:    Entry point executable to run a single-player ten point bowling game. 
+ Descr:    Entry point executable to test a single-player ten point bowling game. Uses the Catch2 testing framework.
            The included class, BowlingGame, implements the game logic and stores the score sheet.
  Author:   Sanandeesh Kamat 
  Source:   
